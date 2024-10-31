@@ -1,0 +1,116 @@
+header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color:BLACK   ;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0px;
+  margin: 0px;
+ }
+ .menu{
+    margin: 0;
+ }
+ 
+ 
+ .logo{
+    
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+ 
+ }
+ 
+ .logo.img{
+    margin-right: 10px;
+    margin: 10px;
+    margin-left: 10PX;
+ }
+
+ nav a{
+    height: 70px;
+    vertical-align: top;
+     margin: 0 10px;
+    text-align: center;
+    float: right;
+    justify-content: space-between;
+    font-weight: 600;
+    padding-right:10px ;
+ }
+ 
+ nav a:hover{
+    color: white;
+ }
+ 
+body{
+    margin: 0;
+
+    background-image:url(https://img.freepik.com/vector-gratis/vector-fondo-degradado-degradado-negro-borde-azul_53876-125750.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+a{
+    color: WHITE;
+    text-shadow: 0 0 5px #b71c1c  , 0 0 25px #b71c1c  ;
+    text-decoration: none;
+ }
+
+ 
+ .section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid BLACK;
+    border-radius: 5px;
+    background: white;
+ }
+ h1{
+    color: WHITE;
+    text-shadow: 0 0 5px #311b92     , 0 0 25px #311b92   ;
+ }
+
+h4{
+   text-shadow: 0 0 5px #4527a0      , 0 0 25px #4527a0   
+   ;
+}
+ 
+.container {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+   background: black;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section {
+   margin-bottom: 20px;
+   padding: 15px;
+   border: 1px solid #4a235a ;
+   border-radius: 5px;
+   background: black;
+}
+ 
+h2{
+   color: white;
+   text-shadow: 0 0 5px #48c9b0       , 0 0 25px #48c9b0     ;
+
+
+}
+
+button{
+   width: 200px;
+   font-size: 20px;
+   background-color: black;
+   color: black;
+   cursor: pointer;
+   transition: 4s ease;
+}
+
+button:hover{
+ transition: 4s ease;
+ color: purple;
+ border: 2px solid purple;
+ box-shadow: 0 0 15px purple;
+}
